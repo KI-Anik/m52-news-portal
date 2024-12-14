@@ -4,7 +4,7 @@ const FindUs = () => {
     return (
         <div>
             <h2 className="font-semibold mb-3">Find Us on</h2>
-            <div className="join flex join-vertical">
+            <div className="join flex join-vertical *:bg-base-100">
                 <button className="btn join-item justify-start">
                     <FaFacebook></FaFacebook> Facebook
                     </button>
