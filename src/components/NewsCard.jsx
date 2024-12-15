@@ -1,5 +1,7 @@
 /* eslint-disable react/prop-types */
 
+import { Link } from "react-router-dom";
+
 const NewsCard = ({news}) => {
     return (
         <div className="card w-full shadow-xl border rounded-lg p-4 bg-white">
@@ -51,9 +53,9 @@ const NewsCard = ({news}) => {
             </div>
   
             {/* Read More Button */}
-            <button className="btn btn-primary btn-sm text-white">
+            <Link to={`/news/${news._id}`} className="btn btn-primary btn-sm text-white">
               Read More
-            </button>
+            </Link>
           </div>
         </div>
       </div>
