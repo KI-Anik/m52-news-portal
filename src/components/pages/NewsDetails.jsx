@@ -12,11 +12,11 @@ const NewsDetails = () => {
                 <Header></Header>
             </header>
             <main className="w-11/12 mx-auto grid grid-cols-12 ">
-                <section className="col-span-9">
+                <section className="col-span-9 mx-5">
                     <h2 className="font-semibold">Dragon News</h2>
 
                     {/* card start */}
-                    <div className="card bg-base-100 w-96 shadow-xl">
+                    <div className="card bg-base-100  shadow-xl">
                         <figure className="px-10 pt-10">
                             <img
                                 src={news?.image_url}
