@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 
 const NewsCard = ({news}) => {
-    console.log(news)
     return (
         <div className="card w-full shadow-xl border rounded-lg p-4 bg-white">
         {/* Dynamic Image */}

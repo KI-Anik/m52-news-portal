@@ -3,7 +3,6 @@ import NewsCard from "../NewsCard";
 
 const CategoryNews = () => {
     const {data : news} = useLoaderData()
-    console.log(news)
     return (
         <div>
             <h2 className="font-bold mb-4">Dragon News Home</h2>
